@@ -1,0 +1,107 @@
+body{
+    background-image: url(img/cloud2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+/* STYLE CSS PAGE NEW-YORK */
+
+.NY{
+    background-image: url(img/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.test {
+    background-color: rgba(165, 203, 215);
+}
+
+.test1 {
+    background-color: rgba(165, 203, 215, 0.55);
+}
+
+.weather, .favor{
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 0.5rem;
+}
+
+.lh{
+    color: white;
+}
+
+.weatherday:hover{
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+
+.iconify{
+    font-size: 6.5rem;
+}
+
+.hours{
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+
+.fonthour{
+    font-size: 0.8rem;
+}
+
+.iconhours{
+    font-size: 4rem;
+}
+
+.temp{
+    font-size: 0.8rem;
+}
+
+.minmax{
+    font-size: 0.8rem;
+}
+
+.linkcity{
+    text-decoration: none;
+    color: black;
+}
+
+.linkcity:hover{
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    color: black;
+}
+
+@media screen and (max-width:500px) {
+    .weather{
+        background-color: transparent;
+        margin-top: 1rem;
+    }
+    .lh{
+        font-size: 3rem;
+        color: black;
+    }
+    .monday{
+        order: 1;
+    }
+    .hours{
+        order: 2;
+    }
+    .tuesday{
+        order: 3;
+    }
+    .wednesday{
+        order: 4;
+    }
+    .iconify{
+        font-size: 2rem;
+    }
+    .day{
+        font-size: 1rem;
+    }
+    .mondayicon{
+        font-size: 5rem;
+    }
+}
